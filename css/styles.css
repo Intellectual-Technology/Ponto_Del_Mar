@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: #008CBA;
+    color: white;
+    padding: 20px;
+}
+
+section {
+    margin: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.team-member {
+    background: #f4f4f4;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+    max-width: 300px;
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+}
