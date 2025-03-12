@@ -3,135 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ponto Delmar - Cleaning Services</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: linear-gradient(to bottom, #003366, #0066cc, #0099ff, #33ccff);
-            color: white;
-            text-align: center;
-            position: relative;
-        }
-        .container {
-            max-width: 900px;
-            margin: auto;
-            padding: 20px;
-        }
-        .header {
-            padding: 20px;
-            font-size: 2em;
-            font-weight: bold;
-            font-style: italic;
-            text-align: center;
-            margin-top: 60px; 
-            position: relative;
-        }
-        .header img {
-            width: 70px;
-            position: absolute;
-            top: 30px;
-            left: 20px;
-        }
-        
-        .team-button {
-            position: absolute;
-            top: 10px;
-            right: 25px; 
-            background-color: #0066cc;
-            color: white;
-            padding: 2px 5px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 0.5em; 
-        }
-        .team-button:hover {
-            background-color: #003366;
-        }
-        .section {
-            background: rgba(255, 255, 255, 0.1);
-            padding: 20px;
-            border-radius: 10px;
-            margin: 20px 0;
-        }
-        .services-list {
-            list-style-type: disc;
-            padding-left: 20px;
-            text-align: left;
-            display: inline-block;
-        }
-        .services-list li {
-            margin: 10px 0;
-        }
-        .footer {
-            margin-top: 20px;
-            padding: 10px;
-            background: rgba(0, 51, 102, 0.8);
-        }
-
-        @media (max-width: 768px) {
-            .container {
-                padding: 10px;
-            }
-            .header {
-                font-size: 1.5em;
-            }
-            .header img {
-                width: 40px;
-            }
-            .team-button {
-                right: 10px;
-                padding: 2px 5px;
-                font-size: 0.5em;
-            }
-        }
-    </style>
+    <title>Ponte Del Mar - Home</title>
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    <div class="header">
-        <img src="logo.jpg" alt="Ponto Delmar Logo">
-        
-        <a href="team_members.html">
-            <button class="team-button">Our Team</button>
-        </a>
-        
-        <div>
-            <em>PONTO DEL MAR - Cleaning Services</em>
-        </div>
-    </div>
-    
-    <div class="container">
-        <div class="section">
-            <h2>About Us</h2>
-            <p>Ponto Delmar is a professional cleaning service company dedicated to providing cleaning solutions for homes, offices, and commercial spaces. Our team ensures a spotless environment using eco-friendly products.</p>
-        </div>
-
-        <div class="section">
-            <h2>Our Services</h2>
-            <p>We offer a wide range of cleaning services tailored to meet your needs:</p>
-            <ul class="services-list">
-                <li>Residential Cleaning (Houses & Apartments)</li>
-                <li>Office & Commercial Cleaning</li>
-                <li>Deep Cleaning & Sanitization</li>
-                <li>Carpet & Upholstery Cleaning</li>
-                <li>Window & Glass Cleaning</li>
-                <li>Move-In & Move-Out Cleaning</li>
-                <li>Eco-Friendly Cleaning Solutions</li>
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">Ponte Del Mar</a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                
+                <li><a href="team.html">Our Team</a></li>
+                <li><a href="addreview.html">Submit Review</a></li>
             </ul>
         </div>
+    </nav>
 
-        <div class="section">
-            <h2>Contact Us</h2>
-            <p>Email: contact@pontodelmar13.com</p>
-            <p>Phone: +264 81980908</p>
-            <p>Address: 123 Dortmund Street</p>
-        </div>
-    </div>
-    
-    <div class="footer">
-        &copy; 2025 Ponto Delmar. All rights reserved.
-    </div>
+    <header>
+        <h1>Ponte Del Mar</h1>
+        <p>Tailored cleaning services, customized to your liking.</p>
+    </header>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Residential Cleaning</li>
+            <li>Office Cleaning</li>
+            <li>Deep Cleaning</li>
+            <li>Carpet & Upholstery Cleaning</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@pontedelmar.com</p>
+        <p>Phone: +264 456 7890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Ponte Del Mar. All rights reserved.</p>
+        <a href="team.html">Meet Our Team</a>
+    </footer>
 </body>
 </html>
