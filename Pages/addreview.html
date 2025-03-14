@@ -17,6 +17,16 @@
             color: #333;
             line-height: 1.6;
         }
+
+        .logo img {
+    height: 50px; /* Adjust this based on the size of your logo */
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover img {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
         
         .container {
             max-width: 600px;
@@ -202,7 +212,9 @@
 <body>
     <div class="container">
         <header>
-            <a href="index.html" class="logo">Ponte Del Mar</a>
+            <a href="index.html" class="logo">
+                <img src="../pictures/logo1.png" alt="Ponte Del Mar Logo"> <!-- Image Logo -->
+            </a>
             <h1>Service Rating</h1>
             <p>We value your feedback. Please rate your recent cleaning service.</p>
         </header>
